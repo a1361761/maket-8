@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap);
+* {
+   font-family: Lato, sans-serif;
+}
+
+.wrapper {
+   min-height: 100%;
+	overflow: hidden;
+   line-height: 1.5;
+   color: gray;
+   max-width: 810px;
+   margin: 0px auto;
+}
+
+.title-small {
+   color: black;
+   font-weight: 700;
+}
+
+.title {
+   color: black;
+   font-weight: 900;
+   font-size: 46px;
+}
+
+.list li{
+   padding: 0px 0px 0px 30px;
+}
+
+.list li::before {
+   content: "";
+   background: url(../img/check.png) 0 0 / 20px no-repeat;
+   width: 20px;
+   height: 20px;
+   display: inline-block;
+   margin: 0px 10px 0px -30px;
+}
+
+.list>*:last-child {
+   margin-bottom: 0px;
+}
+
+.bottom {
+   margin: 50px 0px;
+   display: inline-block;
+   background-color: #e74c04;
+   font-size: 14px;
+   font-weight: bold;
+   color: white;
+   border-radius: 5px;
+   padding: 15px 45px;
+   box-shadow: 0 5px 0 0 #000;
+}
+
+.bottom:hover {
+   margin: 53px 0px 47px 0px;
+   box-shadow: 0 1px 0 0 #000;
+}
+
+.bottom:active {
+   margin: 54px 0px 46px 0px;
+   box-shadow: inset 0 0px 7px 0 #000;
+}
+
+.line {
+   text-transform: capitalize;
+   font-family: 'Times New Roman', Times, serif;
+   color: black;
+   font-size: 40px;
+   display: inline-block;
+   background-color: blue;
+}
+
+.line::after {
+   content: "";
+   display: block;
+   height: 3px;
+   width: 30%;
+   margin: 5px 0px 0px 0px;
+   background-color: black;
+   
+}
